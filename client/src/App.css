@@ -1,0 +1,159 @@
+body {
+  background: rgb(125, 19, 19);
+  background: linear-gradient(
+    90deg,
+    rgba(125, 19, 19, 1) 27%,
+    rgba(89, 36, 59, 1) 91%
+  );
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 90px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 50vh;
+  padding: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 2px solid #ffb41e;
+  border-radius: 8px;
+  color: #ffb41e;
+  background: rgb(125, 19, 19);
+  background: linear-gradient(
+    90deg,
+    rgba(125, 19, 19, 1) 27%,
+    rgba(89, 36, 59, 1) 91%
+  );
+}
+.form-input {
+  margin: 1.2rem 0;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.input-button {
+  display: block;
+  background-color: transparent;
+  border: 3px solid #ffb41e;
+  border-radius: 9px;
+  color: #ffb41e;
+  padding: 8px 19px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: auto;
+  font-size: 18px;
+}
+.form-input input {
+  margin: 0.2rem 0;
+  width: 100%;
+}
+
+.main-form {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #ffb41e;
+  border-radius: 4px;
+  color: #ffb41e;
+  font-size: 24px;
+  min-height: 250px;
+}
+
+.navbar {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 1px solid #ffb41e;
+  box-sizing: border-box;
+  font-size: 0;
+  background: rgb(125, 19, 19);
+  background: linear-gradient(
+    90deg,
+    rgba(125, 19, 19, 1) 27%,
+    rgba(89, 36, 59, 1) 91%
+  );
+}
+
+.logo-image {
+  margin: 0;
+  width: 180px;
+  height: 135px;
+
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid #ffb41e;
+}
+
+.short-url {
+  display: flex;
+  gap: 10px;
+  width: 90%;
+  margin: 40px auto;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ffb41e;
+  align-items: center;
+  height: 16vh;
+  font-size: 19px;
+  color: black;
+  padding: 12px;
+}
+
+@media (min-width: 880px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1080px) {
+  .container {
+    width: 40%;
+  }
+}
+
+.copy-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.ikon {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.alert {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+}
